@@ -96,7 +96,7 @@ cmd_connect_ssh(LINE *line)
 	c++;
 	if(port)
 	{
-		args[c] = "-P";
+		args[c] = "-p";
 		c++;
 		args[c] = port;
 		c++;
